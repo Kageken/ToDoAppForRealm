@@ -19,6 +19,7 @@
 		FBC381AC2168823600CBD271 /* ToDoAppForRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC381AB2168823600CBD271 /* ToDoAppForRealmTests.swift */; };
 		FBC381B72168823600CBD271 /* ToDoAppForRealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC381B62168823600CBD271 /* ToDoAppForRealmUITests.swift */; };
 		FBED806C21689B97007CC22A /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED806B21689B97007CC22A /* TodoModel.swift */; };
+		FBED806E21689DC3007CC22A /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED806D21689DC3007CC22A /* DateExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		FBC381B62168823600CBD271 /* ToDoAppForRealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppForRealmUITests.swift; sourceTree = "<group>"; };
 		FBC381B82168823600CBD271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBED806B21689B97007CC22A /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		FBED806D21689DC3007CC22A /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				FBC3819D2168823600CBD271 /* Assets.xcassets */,
 				FBC3819F2168823600CBD271 /* LaunchScreen.storyboard */,
 				FBC381A22168823600CBD271 /* Info.plist */,
+				FBED806D21689DC3007CC22A /* DateExtension.swift */,
 			);
 			path = ToDoAppForRealm;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB69E75C21688A1900C60EC8 /* TodoEntity.swift in Sources */,
+				FBED806E21689DC3007CC22A /* DateExtension.swift in Sources */,
 				FBED806C21689B97007CC22A /* TodoModel.swift in Sources */,
 				FBC381992168823500CBD271 /* ViewController.swift in Sources */,
 				FBC381972168823500CBD271 /* AppDelegate.swift in Sources */,
