@@ -18,8 +18,12 @@
 		FBC381A12168823600CBD271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC3819F2168823600CBD271 /* LaunchScreen.storyboard */; };
 		FBC381AC2168823600CBD271 /* ToDoAppForRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC381AB2168823600CBD271 /* ToDoAppForRealmTests.swift */; };
 		FBC381B72168823600CBD271 /* ToDoAppForRealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC381B62168823600CBD271 /* ToDoAppForRealmUITests.swift */; };
+		FBC488A2216B75AA0010AFA8 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC488A1216B75AA0010AFA8 /* TodoTableViewCell.swift */; };
 		FBED806C21689B97007CC22A /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED806B21689B97007CC22A /* TodoModel.swift */; };
 		FBED806E21689DC3007CC22A /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED806D21689DC3007CC22A /* DateExtension.swift */; };
+		FBED807021689FA1007CC22A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED806F21689FA1007CC22A /* DetailViewController.swift */; };
+		FBED80722168A345007CC22A /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED80712168A345007CC22A /* EditViewController.swift */; };
+		FBED80742168B65D007CC22A /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED80732168B65D007CC22A /* IndexViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +67,12 @@
 		FBC381B22168823600CBD271 /* ToDoAppForRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppForRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC381B62168823600CBD271 /* ToDoAppForRealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppForRealmUITests.swift; sourceTree = "<group>"; };
 		FBC381B82168823600CBD271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC488A1216B75AA0010AFA8 /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
 		FBED806B21689B97007CC22A /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
 		FBED806D21689DC3007CC22A /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		FBED806F21689FA1007CC22A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FBED80712168A345007CC22A /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		FBED80732168B65D007CC22A /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,11 +155,15 @@
 				FBC381982168823500CBD271 /* ViewController.swift */,
 				FB69E75B21688A1900C60EC8 /* TodoEntity.swift */,
 				FBED806B21689B97007CC22A /* TodoModel.swift */,
+				FBED806D21689DC3007CC22A /* DateExtension.swift */,
+				FBED806F21689FA1007CC22A /* DetailViewController.swift */,
+				FBED80712168A345007CC22A /* EditViewController.swift */,
+				FBED80732168B65D007CC22A /* IndexViewController.swift */,
+				FBC488A1216B75AA0010AFA8 /* TodoTableViewCell.swift */,
 				FBC3819A2168823500CBD271 /* Main.storyboard */,
 				FBC3819D2168823600CBD271 /* Assets.xcassets */,
 				FBC3819F2168823600CBD271 /* LaunchScreen.storyboard */,
 				FBC381A22168823600CBD271 /* Info.plist */,
-				FBED806D21689DC3007CC22A /* DateExtension.swift */,
 			);
 			path = ToDoAppForRealm;
 			sourceTree = "<group>";
@@ -389,8 +401,12 @@
 				FB69E75C21688A1900C60EC8 /* TodoEntity.swift in Sources */,
 				FBED806E21689DC3007CC22A /* DateExtension.swift in Sources */,
 				FBED806C21689B97007CC22A /* TodoModel.swift in Sources */,
+				FBC488A2216B75AA0010AFA8 /* TodoTableViewCell.swift in Sources */,
+				FBED80742168B65D007CC22A /* IndexViewController.swift in Sources */,
+				FBED807021689FA1007CC22A /* DetailViewController.swift in Sources */,
 				FBC381992168823500CBD271 /* ViewController.swift in Sources */,
 				FBC381972168823500CBD271 /* AppDelegate.swift in Sources */,
+				FBED80722168A345007CC22A /* EditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
